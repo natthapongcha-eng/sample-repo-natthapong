@@ -20,4 +20,8 @@ describe('Calculator', () => {
     test('divides 10 / 2 to equal 5', () => {
         expect(divide(10, 2)).toBe(5);
     });
+
+    test('adds 2 + 5 to equal 7', () => {
+        expect(add(2, 5)).toBe(7);
+    });
 });
